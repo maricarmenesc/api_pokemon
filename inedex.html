@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="pokedex">
+      <div class="screen">
+        <div id="pokemon-info" class="info">
+          <h5 id="pokemon-name">Pokemón</h5>
+          <h6 id="pokemon-number">#000</h6>
+          <img id="pokemon-image" src="" alt="Pokemon">
+          <button id="shiny-button">Versión Shiny</button>
+          <p id="pokemon-description">Descripción</p>
+        </div>
+        <div id="pokemon-stats" class="stats">
+          <h5>Características</h5>
+          <p id="pokemon-type">Tipo: </p>
+          <p id="pokemon-level">Nivel: </p>
+          <ul id="pokemon-abilities"></ul>
+        </div>
+      </div>
+      <div class="controls">
+        <button id="prev-button">Anterior</button>
+        <button id="next-button">Siguiente</button>
+      </div>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
